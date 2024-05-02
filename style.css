@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "wood-block";
+    src: url(./Wood\ Block\ CG\ Regular.otf) ;
+}
+
+@font-face {
+    font-family: "source-code-pro";
+    src: url(./SourceCodePro-VariableFont_wght.ttf);
+}
+
+.title {
+    color: #fae95d ;
+    font-family: "wood-block", "san-serif";
+    padding-bottom: 10px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: .1rem;
+}
+
+#websiteBody {
+    text-align: center;
+    background-color: #38c8ea;
+}
+
+#titleHeader{
+    font-size: 12rem;
+    margin-bottom: 0;
+}
+
+#secondTitle{
+    font-size: 4rem;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 430px;
+    height: 40px;
+    background-color: #38c8ea;
+    color: #fae95d;
+    font-size: 15px;
+    padding-left: 15px;
+    border-color: black;
+}
+
+.ipsumGenerator {
+    font-size: 1rem;
+}
+
+
+.option {
+    cursor: pointer;
+    padding: 10px 10px;
+    border-color: 10px black;
+    border: 2px solid black;
+    display: inline-block;
+    width: 200px;
+    font-size: 18px;
+    
+}
+
+.option.selected {
+    background-color: #fae95d;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-color: 10px black;
+    border: 2px solid black;
+    width: 200px;
+    display: inline-block;
+    font-size: 18px;
+    
+}
+
+footer {
+    padding: fixed;
+}
+
+button {
+    background-color: #fae95d;
+    width: 200px;
+    height: 40px;
+    font-size: 1rem;
+}
+
+.output-box {
+    background-color: #38c8ea;;
+    width: 1000px;
+    min-height: 100px; /* Set a minimum height */
+    margin: 30px auto;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    overflow-y: auto; /* Add vertical scroll if content overflows */
+    transition: height 0.3s;
+    font-family: "source-code-pro";
+    font-weight: bold;
+}
